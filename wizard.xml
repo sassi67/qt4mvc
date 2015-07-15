@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wizard version="1" kind="project"
+        class="qmakeproject" firstpage="10"
+        id="B.Qt4MVC" category="B.CustomProjects">
+    <icon>qt4_mvc_icon.png</icon>
+    <displayname>Qt4 MVC project</displayname>;
+    <description>Creates a MVC application.</description>
+    <displaycategory>Custom Projects</displaycategory>
+    <files>
+        <file source="project.pro" target="%ProjectName%.pro" openproject="true"/>
+        <file source="main.cpp" openeditor="false"/>
+        <file source="View/View.pri" openproject="false"/>
+        <file source="View/mainwindow.h" openproject="false"/>
+        <file source="View/mainwindow.cpp" openproject="false"/>
+        <file source="View/mainwindow.ui" openproject="false"/>
+        <file source="Utils/Utils.pri" openproject="false"/>
+        <file source="Model/Model.pri" openproject="false"/>
+        <file source="Controller/Controller.pri" openproject="false"/>
+    </files>
+</wizard>
